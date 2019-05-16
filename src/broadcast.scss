@@ -1,0 +1,38 @@
+.broadcast-lists{
+    width: 100%;
+    height: 70px;
+    box-sizing: border-box;
+    line-height: 70px;
+    color: #de8c17;
+    background-color: #fbf6ee;
+    padding: 0 25px;
+    at-icon{
+        float: left;
+    }
+    .broadcast-content{
+        width: 520px;
+        padding-left: 10px;
+        float: left;
+        height: 70px;
+        overflow:hidden;
+        text-overflow:ellipsis;
+        white-space:nowrap;
+        overflow: hidden;
+    }
+}
+.anim{
+    transition: all 0.6s;
+    margin-top: -70px;
+}
+.notice-item{
+    line-height: 70px;
+    height: 70px;
+    font-size: 24px;
+}
+.look-more-href{
+    float: right;
+    width: 120px;
+    text-align: right;
+    color: #999;
+    font-size: 24px;
+}
